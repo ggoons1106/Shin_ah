@@ -1,3 +1,7 @@
+#include<stiod.h>
+
+int main(void)
+{
 	printf("arr1:");
 	for (int i = 0; i < 6; i++)
 		printf("%d ", arr1[i]);
@@ -25,3 +29,4 @@
 	for (int i = 0; i < 6; i++)
 		printf("%d ", arr2[i]);
 	return 0;
+}
