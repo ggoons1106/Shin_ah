@@ -15,10 +15,10 @@ int convCase(int str)
 int main(void) 
 {
     char str[100]; 
-    printf("문자열 입력: ");
+    printf("input> ");
     fgets(str, sizeof(str), stdin);
 
-    printf("변환된 문자열: ");
+    printf("output> ");
     int len = strlen(str);
     for (int i = 0; i < len ; i++) 
         putchar(convCase(str[i])); 
